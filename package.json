@@ -1,0 +1,33 @@
+{
+  "name": "koa-sso-auth",
+  "version": "1.0.0",
+  "description": "koa sso auth middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengyaolong/koa-sso-auth.git"
+  },
+  "keywords": [
+    "sso",
+    "koa",
+    "auth",
+    "middleware"
+  ],
+  "author": "dengyaolong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dengyaolong/koa-sso-auth/issues"
+  },
+  "homepage": "https://github.com/dengyaolong/koa-sso-auth#readme",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "koa": "^2.3.0",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "debug": "^3.0.1"
+  }
+}
